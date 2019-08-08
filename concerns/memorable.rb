@@ -1,7 +1,7 @@
 require_relative '../lib/concerns/memorable'
 
-module Memorable
-  module ClassMethods
+  module Memorable
+
     def reset_all
       self.all.clear
     end
